@@ -182,6 +182,13 @@ hr{
     margin-right: 5px;
 }
 
-@media screen and  {
-    
+@media only screen and (max-width:688px) {
+    .menu ul li{
+        margin: 0 20px;
+    }
+
+    .players, .blogs, .courses{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
